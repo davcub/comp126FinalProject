@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Dots', cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F5F7;
+}
+
+.header {
+  display: flex;
+  height: 8em;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding-bottom: 0.5em;
+}
+
+.navBar {
+  display: flex;
+  font-size: 28px;
+  width: 60%;
+}
+
+.navTo {
+  margin-right: 3em;
+}
+
+a, a:visited  {
+  text-decoration: none;
+  color: #13294B;
+}
+
+.footer {
+  background-color: #4B9CD3;
+  height: 12em;
+}
